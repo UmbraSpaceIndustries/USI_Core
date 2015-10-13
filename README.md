@@ -1,4 +1,6 @@
-USI_PP
+USI Core
 ======
 
-USI Parts Pack
+USI Core
+
+Reactors, Containers, and other common USI bits and pieces
