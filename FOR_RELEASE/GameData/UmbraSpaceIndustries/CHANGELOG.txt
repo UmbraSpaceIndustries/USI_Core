@@ -1,6 +1,7 @@
 0.1.6 - 2016.02.08
 ------------------
 Added the mini radial tanks from UKS/MKS-Lite to Core
+Added Karborundum, XenonGas, ArgonGas to cylindrical kontainer tanks (thanks LouisB3!)
 
 0.1.5 - 2016.02.01
 ------------------
