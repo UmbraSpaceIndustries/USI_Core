@@ -1,3 +1,13 @@
+0.2.1 - 2016.04.16
+------------------
+Improved CryoTanks Compatibility (Thanks LouisB3!)
+
+0.2.0 - 2016.03.29
+-----------
+Compatibility with KSP 1.1
+Updated NFE configs (thanks Businfu!)
+Fixed 0.625m reactor to not produce too much depleted fuel
+
 0.1.8 - 2016.03.02
 ------------------
 Dependency Updates
