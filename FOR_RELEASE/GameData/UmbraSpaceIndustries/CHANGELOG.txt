@@ -1,3 +1,9 @@
+0.2.4 - 2016.05.28
+------------------
+All Kontainers have had their prices fixed.
+Nuclear Fuels Kontainers and Supply Packs have been deprecated.  Use the dedicated nuclear fuel / depleted fuel tanks.
+New low-profile containers!  Stock-Alike for dry goods, and spherical clusters for liquids.  In sizes from 1.25m to 5m
+
 0.2.3 - 2016.05.14
 ------------------
 Dependency Updates
