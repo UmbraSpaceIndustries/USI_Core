@@ -1,4 +1,4 @@
-0.7.4 - 2016.05.28
+0.7.4 - (KSP 1.1.3)
 ------------------
 Compatibility for KSP 1.1.3
 Ensured all parts with command capabilities are resource consumers
