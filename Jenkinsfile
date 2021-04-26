@@ -125,10 +125,11 @@ pipeline {
 
           Write-Output "Pulling in cached dependencies..."
           $DriveRoot = Split-Path -Path $env:WORKSPACE -Qualifier
-          $ReleaseFolder = "usi-releases"
-          $ReleasePath = Join-Path -Path $DriveRoot -ChildPath $ReleaseFolder
-          $CachePath = Join-Path -Path $Release-Path -ChildPath $env:JOB_CACHE
+          $ReleasePath = Join-Path -Path $DriveRoot -ChildPath "usi-releases"
+          $ModuleManagerPath = Join-Path -Path $ReleasePath -ChildPath "ModuleManager"
+          $CachePath = Join-Path -Path $ReleasePath -ChildPath $env:JOB_CACHE
           $UsiCachePath = Join-Path -Path $CachePath -ChildPath "UmbraSpaceIndustries"
+          Copy-Item -Path $ModuleManagerPath/* -Destination ./artifacts/GameData
           Copy-Item -Path (Join-Path -Path $CachePath -ChildPath "000_USITools") -Destination ./artifacts/GameData -Recurse
           Copy-Item -Path (Join-Path -Path $CachePath -ChildPath "CommunityCategoryKit") -Destination ./artifacts/GameData -Recurse
           Copy-Item -Path (Join-Path -Path $CachePath -ChildPath "CommunityResourcePack") -Destination ./artifacts/GameData -Recurse
