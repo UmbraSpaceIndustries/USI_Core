@@ -1,6 +1,6 @@
 {
      "NAME":"USI Core",
-	 "URL":"https://raw.githubusercontent.com/UmbraSpaceIndustries/USI_Core/master/FOR_RELEASE/GameData/UmbraSpaceIndustries/USICore.version",
+	 "URL":"https://raw.githubusercontent.com/UmbraSpaceIndustries/USI_Core/main/FOR_RELEASE/GameData/UmbraSpaceIndustries/USICore/USICore.version",
 	 "DOWNLOAD":"https://github.com/UmbraSpaceIndustries/USI_Core/releases",
      "GITHUB":{
          "USERNAME":"UmbraSpaceIndustries",
@@ -8,8 +8,8 @@
          "ALLOW_PRE_RELEASE":false
      },
      "VERSION":{
-         "MAJOR":1,
-         "MINOR":4,
+         "MAJOR":112,
+         "MINOR":0,
          "PATCH":0,
          "BUILD":0
      },
