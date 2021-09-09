@@ -1,4 +1,4 @@
-1.5.0 - TBD
+112.0 - 2021.09.19
 ------------------
 0.625m Nuclear Reactors can now be moved via stock construction
 All KIS Kontainers have been deprecated and replaced with stock inventory
